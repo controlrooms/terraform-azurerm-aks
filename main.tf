@@ -544,7 +544,6 @@ resource "azurerm_kubernetes_cluster" "main" {
       http_application_routing_enabled,
       http_proxy_config[0].no_proxy,
       kubernetes_version,
-      public_network_access_enabled,
     ]
 
     precondition {
